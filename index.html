@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main-selecao">
+            <span>Selecione quem irá começar:</span>
+            <br>
+            <label class="radio-container">
+                <input type="radio" name="player" class="player" checked="checked">
+                <span class="checkmark">Jogador - X</span>
+            </label>
+            <label class="radio-container">
+                <input type="radio" name="player" class="player">
+                <span class="checkmark">Jogador - O</span>
+            </label>
+        </div>
+        <div class="main-tabuleiro">
+            <div class="col">
+                <div class="0-0"><img src=""></div>
+                <div class="1-0"><img src=""></div>
+                <div class="2-0"><img src=""></div>
+            </div>
+            <div class="col">
+                <div class="0-1"><img src=""></div>
+                <div class="1-1"><img src=""></div>
+                <div class="2-1"><img src=""></div>
+            </div>
+            <div class="col">
+                <div class="0-2"><img src=""></div>
+                <div class="1-2"><img src=""></div>
+                <div class="2-2"><img src=""></div>
+            </div>
+        </div>
+
+        <dialog>
+            <h2>Vencedor: <span></span></h2>
+            <div class="jogo"></div>
+            <div>
+                <button>Fechar</button>
+            </div>
+        </dialog>
+    </div>
+
+
+</body>
+
+</html>
